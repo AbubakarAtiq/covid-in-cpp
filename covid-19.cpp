@@ -1,5 +1,5 @@
 #include<iostream>
-#include<windows.h>
+#include<Windows.h>
 #include<stdio.h>
 #include<string>
 #include<direct.h>
@@ -164,7 +164,7 @@ public:
     {
         system("color f2");
         cout<<"\n\n\n\t\t\t\tPlease wait while loading\n\n\n\t\t\t\t";
-        char a=177,b=219;
+        char a,b;
         cout<<"\t\t\t\t";
         for(int i=0;i<=15;i++)
             cout<<a;
@@ -175,7 +175,7 @@ public:
             for(int j=0;j<=1e8;j++);
         }
         cout<<"\n\n\n\n\n\n\t\t\tMade,A.Atiq:";
-        getch();
+        //getch();
     }
 };
 int main()
