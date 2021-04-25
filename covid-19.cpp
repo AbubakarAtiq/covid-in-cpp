@@ -191,6 +191,6 @@ int main()
     goingOutside mygoingOutside;//object created
     mygoingOutside.displayMessage5();//call the object to display function
           cout<<"Please it My humble request,kindly read above mentioned instruction.Before going outside"<<endl;
-    cout<<"Thanks for testing it,"<<username<<endl<<"\tProgram ended!";
+    cout<<"Thanks for testing it,"<<username<<endl<<"\tProgram ended!"<<endl;
     main();
 }
