@@ -47,26 +47,14 @@ public:
         string user_say_yesorno;
         cout<<"Will you like to listen Niki corona virus song (Y|N):";
         getline(cin,user_say_yesorno);
-        if ((user_say_yesorno=="Y")||(user_say_yesorno=="y"))
+        if ((user_say_yesorno=="Y")||(user_say_yesorno=="y")||(user_say_yesorno=="YES")||(user_say_yesorno=="yes"))
         {
         cout<<"You are about to see corono virus song by Niki"<<endl;
         cout<<"Next step will open youtube,in your browser.I know you will be feeling bored.Let play it"<<endl;
         system("pause");
         system("cmd /c start https://www.youtube.com/watch?v=Eufjp7T6PVk&feature=youtu.be");
-
         }
-        else if ((user_say_yesorno=="N")||(user_say_yesorno=="n"))
-        {
-            cout<<"As we wish,jumping to next section"<<endl;
-        }
-        else if((user_say_yesorno=="YES")||(user_say_yesorno=="yes"))
-        {
-             cout<<"You are about to see corono virus song by Niki"<<endl;
-        cout<<"Next step will open youtube,in your browser.I know you will be feeling bored.Let play it"<<endl;
-        system("pause");
-        system("cmd /c start https://www.youtube.com/watch?v=Eufjp7T6PVk&feature=youtu.be");
-        }
-        else if((user_say_yesorno=="NO")||(user_say_yesorno=="no"))
+        else if ((user_say_yesorno=="N")||(user_say_yesorno=="n")||(user_say_yesorno=="NO")||(user_say_yesorno=="no"))
         {
             cout<<"As we wish,jumping to next section"<<endl;
         }
@@ -85,26 +73,14 @@ public:
         string user_say_yesorno;
         cout<<"Will you like to see the Corona affected countries? (Y|N):";
         getline(cin,user_say_yesorno);
-        if ((user_say_yesorno=="Y")||(user_say_yesorno=="y"))
+        if ((user_say_yesorno=="Y")||(user_say_yesorno=="y")||(user_say_yesorno=="YES")||(user_say_yesorno=="yes"))
         {
           cout<<"Let me show you corona affected countries!,In browser it will open when you press key"<<endl;
         cout<<"There you go "<<"Just a sec,press the key "<<endl;
         system("pause");
         system("cmd /c start https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/");
-
         }
-        else if ((user_say_yesorno=="N")||(user_say_yesorno=="n"))
-        {
-            cout<<"As we wish,jumping to next section"<<endl;
-        }
-        else if((user_say_yesorno=="YES")||(user_say_yesorno=="yes"))
-        {
-               cout<<"Let me show you corona affected countries!,In browser it will open when you press key"<<endl;
-        cout<<"There you go "<<"Just a sec,press the key "<<endl;
-        system("pause");
-        system("cmd /c start https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/");
-        }
-        else if((user_say_yesorno=="NO")||(user_say_yesorno=="no"))
+        else if ((user_say_yesorno=="N")||(user_say_yesorno=="n")||(user_say_yesorno=="NO")||(user_say_yesorno=="no"))
         {
             cout<<"As we wish,jumping to next section"<<endl;
         }
@@ -128,29 +104,17 @@ public:
         string user_say_yesorno;
         cout<<"Will you like to see instructions given W.H.O for covid? (Y|N):";
         getline(cin,user_say_yesorno);
-        if ((user_say_yesorno=="Y")||(user_say_yesorno=="y"))
+        if ((user_say_yesorno=="Y")||(user_say_yesorno=="y")||(user_say_yesorno=="YES")||(user_say_yesorno=="yes"))
         {
            cout<<"You are about to see instruction given by W.H.O"<<endl;
         system("pause");
         system("cmd /c start https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public");
 
         }
-        else if ((user_say_yesorno=="N")||(user_say_yesorno=="n"))
+        else if ((user_say_yesorno=="N")||(user_say_yesorno=="n")||(user_say_yesorno=="NO")||(user_say_yesorno=="no"))
         {
             cout<<"As we wish,jumping to next section"<<endl;
         }
-        else if((user_say_yesorno=="YES")||(user_say_yesorno=="yes"))
-        {
-               cout<<"You are about to see instruction given by W.H.O"<<endl;
-        system("pause");
-        system("cmd /c start https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public");
-        }
-        else if((user_say_yesorno=="NO")||(user_say_yesorno=="no"))
-        {
-            cout<<"As we wish,jumping to next section"<<endl;
-        }
-        
-
         // //Creat its object
         // cout<<"You are about to see instruction given by W.H.O"<<endl;
         // system("pause");
@@ -174,7 +138,7 @@ public:
             cout<<b;
             for(int j=0;j<=1e8;j++);
         }
-        cout<<"\n\n\n\n\n\n\t\t\tMade,A.Atiq:";
+        cout<<"\n\n\n\n\n\n\t\t\tMade,M.A.Atiq:";
         //getch();
     }
 };
@@ -213,8 +177,8 @@ int main()
     cout<<endl;
     cout<<"I see,"<<username<<",I hope you both are very good friends right?"<<"Type(Yes we are or no)\n>>>";
     getline(cin,usr01);
-    cout<<usr01<<",Anyways I don't know,"<<username<<endl;
-    system("color 70");
+    cout<<usr01<<",Hmm!,Anyways I don't know,"<<username<<endl;
+    system("color f2");
     CoronaSong myCoronaSong;//Create CoronaSong object
     myCoronaSong.displayMessage3();//call function to display message
     coronaWebsite mycoronaWebsite;
