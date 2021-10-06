@@ -139,7 +139,6 @@ class loadingData // It work, modify it
 {
 public:
   static void main(void) {
-    system("color f2");
     cout << "\n\n\n\t\t\t\tPlease wait while loading\n\n\n\t\t\t\t";
     char a, b;
     cout << "\t\t\t\t";
@@ -157,7 +156,6 @@ public:
   }
 };
 int main() {
-  system("Color f2");
   string Start;
   cout << "Type (start):" << Start;
   getline(cin, Start); // It will take the info from the user and represent it
@@ -173,9 +171,7 @@ int main() {
   introGuide::displayMessage2(); // Call introGuide Object to display message
                                  // function
   /* Start asking question */
-  system("Color f2"); // Changing background Colour
   cout << "Tell me about your self:(" << username << ")" << endl;
-
   string usrIntro; /*Question number one*/
   cout << "Type here your Introduction " << username << ":";
   getline(cin, usrIntro);
@@ -196,7 +192,6 @@ int main() {
        << "Type(Yes we are or no)\n>>>";
   getline(cin, usr01);
   cout << usr01 << ",Hmm!,Anyways I don't know," << username << endl;
-  system("color f2");
   CoronaSong::displayMessage3();    // call function to display message
   coronaWebsite::displayMessage4(); // display corona effected countries
   cout << "\n"
